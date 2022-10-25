@@ -1,0 +1,113 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #2dd4bf;
+    --white: #f8fafc;
+    --black: #0f172a
+}
+
+#header{
+ background-color: var(--primary-color);  
+ padding: 1rem 2rem; 
+ border-bottom-left-radius: 1rem ;
+ color: var(--black);
+}
+
+.container{
+    margin: 4rem auto 7rem;
+    text-align: center;
+}
+
+.description{
+    font-size: larger;
+    margin: 1rem;
+}
+
+.input-label{
+    display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+#bill-amount,#cash-given{
+    font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    color: var(--black);
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--white);
+    margin: auto auto 2rem auto ;
+    display: block;
+  }
+
+  #error-message {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+  }
+  
+  th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+table{ 
+    width: 70%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: 1rem auto;
+}
+
+/*  */
+
+
+.list-non-bullet{
+    list-style: none;
+  }
+  
+  .list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
+  .link{
+    text-decoration: none;
+    padding: 0.5rem 1rem ;
+    margin: 1rem 0.5rem;
+  }
+  
+  .footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--black);
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer .link{
+    color:var(--black);
+  }
+  
+  .footer-header{
+    font-weight: bold;
+    font-size: larger;
+  }
