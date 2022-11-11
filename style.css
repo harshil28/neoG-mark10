@@ -51,7 +51,7 @@
     border-radius: 0.5rem;
     font-size: large;
     cursor: pointer;
-    outline: var(--white);
+    outline: var(--black);
     margin: auto auto 2rem auto ;
     display: block;
   }

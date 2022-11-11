@@ -4,7 +4,7 @@ var errorMessage = document.querySelector("#error-message");
 var checkButton = document.querySelector("#check-button");
 var notesCount = document.querySelectorAll(".notes-count");
 
-var notes = [2000, 500, 200, 100, 20, 10, 1];
+var notes = [2000, 500, 200, 100, 20, 10, 5, 1];
 
 checkButton.addEventListener("click", function validateAmount() {
   var billAmount = Number(ba.value);
